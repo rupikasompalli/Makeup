@@ -34,7 +34,6 @@ class BrandsViewController: UIViewController,UITableViewDelegate,UITableViewData
         
         do{
             realm = try Realm()
-           //makeUpProduct = realm?.objects(RLMProduct.self)
             
             //Filter the data based on the brand selected
             if let selectedBrand = selectedBrand{
