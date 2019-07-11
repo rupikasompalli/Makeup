@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B062C1122BAAD2300F0BC3B /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B062C0F22BAAD2300F0BC3B /* CategoriesTableViewCell.swift */; };
+		0B062C1222BAAD2300F0BC3B /* CategoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B062C1022BAAD2300F0BC3B /* CategoriesTableViewCell.xib */; };
+		0B062C1422BAAEED00F0BC3B /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B062C1322BAAEED00F0BC3B /* CategoriesTableViewController.swift */; };
+		0B062C1622BBD86E00F0BC3B /* BrandsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B062C1522BBD86E00F0BC3B /* BrandsCollectionViewCell.swift */; };
+		0B06AEE622B934D7007F97FF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06AEE522B934D7007F97FF /* SignInViewController.swift */; };
+		0B06AEE822B96A43007F97FF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06AEE722B96A43007F97FF /* HomeViewController.swift */; };
 		0B21FB8522B2963300AD2A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B21FB8422B2963300AD2A74 /* AppDelegate.swift */; };
 		0B21FB8722B2963300AD2A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B21FB8622B2963300AD2A74 /* ViewController.swift */; };
 		0B21FB8A22B2963300AD2A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B21FB8822B2963300AD2A74 /* Main.storyboard */; };
-		0B21FB8D22B2963300AD2A74 /* NykaCosmetics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B21FB8B22B2963300AD2A74 /* NykaCosmetics.xcdatamodeld */; };
-		0B21FB8F22B2963600AD2A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B21FB8E22B2963600AD2A74 /* Assets.xcassets */; };
 		0B21FB9222B2963600AD2A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B21FB9022B2963600AD2A74 /* LaunchScreen.storyboard */; };
+		0B331D1F22CBCAB30041CA1F /* BrandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B331D1E22CBCAB30041CA1F /* BrandsViewController.swift */; };
+		0B6F597222B7FE0C001D40BA /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F597122B7FE0C001D40BA /* LandingViewController.swift */; };
+		0B84CF9822D2499D00542342 /* BrandsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B84CF9622D2499D00542342 /* BrandsTableViewCell.swift */; };
+		0B84CF9922D2499D00542342 /* BrandsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B84CF9722D2499D00542342 /* BrandsTableViewCell.xib */; };
+		0B943E0822D55A1B000BA461 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B943E0722D55A1B000BA461 /* Product.swift */; };
+		0BAD669F22D27F2900944B65 /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD669D22D27F2900944B65 /* ProductsCollectionViewCell.swift */; };
+		0BF6719E22B337E80060BA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF6719D22B337E70060BA90 /* Assets.xcassets */; };
+		75C70AA3B3A44B5D575D4E5E /* Pods_NykaCosmetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E25530E2C3CF542DA6D1F5A /* Pods_NykaCosmetics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B062C0F22BAAD2300F0BC3B /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		0B062C1022BAAD2300F0BC3B /* CategoriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesTableViewCell.xib; sourceTree = "<group>"; };
+		0B062C1322BAAEED00F0BC3B /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		0B062C1522BBD86E00F0BC3B /* BrandsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsCollectionViewCell.swift; sourceTree = "<group>"; };
+		0B06AEE522B934D7007F97FF /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0B06AEE722B96A43007F97FF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0B21FB8122B2963300AD2A74 /* NykaCosmetics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NykaCosmetics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B21FB8422B2963300AD2A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B21FB8622B2963300AD2A74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B21FB8922B2963300AD2A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0B21FB8C22B2963300AD2A74 /* NykaCosmetics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NykaCosmetics.xcdatamodel; sourceTree = "<group>"; };
-		0B21FB8E22B2963600AD2A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B21FB9122B2963600AD2A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B21FB9322B2963600AD2A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B331D1E22CBCAB30041CA1F /* BrandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsViewController.swift; sourceTree = "<group>"; };
+		0B6F597122B7FE0C001D40BA /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		0B84CF9622D2499D00542342 /* BrandsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsTableViewCell.swift; sourceTree = "<group>"; };
+		0B84CF9722D2499D00542342 /* BrandsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandsTableViewCell.xib; sourceTree = "<group>"; };
+		0B943E0722D55A1B000BA461 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0BAD669D22D27F2900944B65 /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		0BF6719D22B337E70060BA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E25530E2C3CF542DA6D1F5A /* Pods_NykaCosmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NykaCosmetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C14A115FE954AB63F0F99A /* Pods-NykaCosmetics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NykaCosmetics.debug.xcconfig"; path = "Target Support Files/Pods-NykaCosmetics/Pods-NykaCosmetics.debug.xcconfig"; sourceTree = "<group>"; };
+		D99262F179D27212ED8013CC /* Pods-NykaCosmetics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NykaCosmetics.release.xcconfig"; path = "Target Support Files/Pods-NykaCosmetics/Pods-NykaCosmetics.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C70AA3B3A44B5D575D4E5E /* Pods_NykaCosmetics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				0B21FB8322B2963300AD2A74 /* NykaCosmetics */,
 				0B21FB8222B2963300AD2A74 /* Products */,
+				9E42CB5989F7FB2530FA708C /* Pods */,
+				1D7A7785811E40F5928B3CAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +87,41 @@
 			children = (
 				0B21FB8422B2963300AD2A74 /* AppDelegate.swift */,
 				0B21FB8622B2963300AD2A74 /* ViewController.swift */,
+				0B6F597122B7FE0C001D40BA /* LandingViewController.swift */,
 				0B21FB8822B2963300AD2A74 /* Main.storyboard */,
-				0B21FB8E22B2963600AD2A74 /* Assets.xcassets */,
+				0B331D1E22CBCAB30041CA1F /* BrandsViewController.swift */,
+				0B062C0F22BAAD2300F0BC3B /* CategoriesTableViewCell.swift */,
+				0B062C1522BBD86E00F0BC3B /* BrandsCollectionViewCell.swift */,
+				0B062C1322BAAEED00F0BC3B /* CategoriesTableViewController.swift */,
+				0B062C1022BAAD2300F0BC3B /* CategoriesTableViewCell.xib */,
+				0B943E0722D55A1B000BA461 /* Product.swift */,
+				0BAD669D22D27F2900944B65 /* ProductsCollectionViewCell.swift */,
+				0B84CF9622D2499D00542342 /* BrandsTableViewCell.swift */,
+				0B84CF9722D2499D00542342 /* BrandsTableViewCell.xib */,
+				0B06AEE522B934D7007F97FF /* SignInViewController.swift */,
 				0B21FB9022B2963600AD2A74 /* LaunchScreen.storyboard */,
+				0BF6719D22B337E70060BA90 /* Assets.xcassets */,
+				0B06AEE722B96A43007F97FF /* HomeViewController.swift */,
 				0B21FB9322B2963600AD2A74 /* Info.plist */,
-				0B21FB8B22B2963300AD2A74 /* NykaCosmetics.xcdatamodeld */,
 			);
 			path = NykaCosmetics;
+			sourceTree = "<group>";
+		};
+		1D7A7785811E40F5928B3CAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E25530E2C3CF542DA6D1F5A /* Pods_NykaCosmetics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E42CB5989F7FB2530FA708C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8C14A115FE954AB63F0F99A /* Pods-NykaCosmetics.debug.xcconfig */,
+				D99262F179D27212ED8013CC /* Pods-NykaCosmetics.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B21FB9622B2963600AD2A74 /* Build configuration list for PBXNativeTarget "NykaCosmetics" */;
 			buildPhases = (
+				FD3375BAD4A4E9A6998EBB61 /* [CP] Check Pods Manifest.lock */,
 				0B21FB7D22B2963300AD2A74 /* Sources */,
 				0B21FB7E22B2963300AD2A74 /* Frameworks */,
 				0B21FB7F22B2963300AD2A74 /* Resources */,
+				4CB1B0D22C6F7C28C7B12AE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +185,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B21FB9222B2963600AD2A74 /* LaunchScreen.storyboard in Resources */,
-				0B21FB8F22B2963600AD2A74 /* Assets.xcassets in Resources */,
+				0B84CF9922D2499D00542342 /* BrandsTableViewCell.xib in Resources */,
+				0B062C1222BAAD2300F0BC3B /* CategoriesTableViewCell.xib in Resources */,
+				0BF6719E22B337E80060BA90 /* Assets.xcassets in Resources */,
 				0B21FB8A22B2963300AD2A74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CB1B0D22C6F7C28C7B12AE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NykaCosmetics/Pods-NykaCosmetics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NykaCosmetics/Pods-NykaCosmetics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD3375BAD4A4E9A6998EBB61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NykaCosmetics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B21FB7D22B2963300AD2A74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B331D1F22CBCAB30041CA1F /* BrandsViewController.swift in Sources */,
+				0B84CF9822D2499D00542342 /* BrandsTableViewCell.swift in Sources */,
 				0B21FB8722B2963300AD2A74 /* ViewController.swift in Sources */,
 				0B21FB8522B2963300AD2A74 /* AppDelegate.swift in Sources */,
-				0B21FB8D22B2963300AD2A74 /* NykaCosmetics.xcdatamodeld in Sources */,
+				0B6F597222B7FE0C001D40BA /* LandingViewController.swift in Sources */,
+				0B943E0822D55A1B000BA461 /* Product.swift in Sources */,
+				0B062C1422BAAEED00F0BC3B /* CategoriesTableViewController.swift in Sources */,
+				0B06AEE622B934D7007F97FF /* SignInViewController.swift in Sources */,
+				0B062C1122BAAD2300F0BC3B /* CategoriesTableViewCell.swift in Sources */,
+				0B062C1622BBD86E00F0BC3B /* BrandsCollectionViewCell.swift in Sources */,
+				0BAD669F22D27F2900944B65 /* ProductsCollectionViewCell.swift in Sources */,
+				0B06AEE822B96A43007F97FF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +403,7 @@
 		};
 		0B21FB9722B2963600AD2A74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C14A115FE954AB63F0F99A /* Pods-NykaCosmetics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +421,7 @@
 		};
 		0B21FB9822B2963600AD2A74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99262F179D27212ED8013CC /* Pods-NykaCosmetics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -338,19 +459,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0B21FB8B22B2963300AD2A74 /* NykaCosmetics.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0B21FB8C22B2963300AD2A74 /* NykaCosmetics.xcdatamodel */,
-			);
-			currentVersion = 0B21FB8C22B2963300AD2A74 /* NykaCosmetics.xcdatamodel */;
-			path = NykaCosmetics.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0B21FB7922B2963300AD2A74 /* Project object */;
 }
