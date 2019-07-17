@@ -225,7 +225,7 @@
         <!--Offers-->
         <scene sceneID="VzV-8g-YFx">
             <objects>
-                <viewController id="7Zd-LX-SmA" sceneMemberID="viewController">
+                <viewController id="7Zd-LX-SmA" customClass="OffersViewController" customModule="NykaCosmetics" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hfe-Cj-Qh9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -476,11 +476,46 @@
                         <outlet property="collectionView" destination="UE2-4S-wfU" id="LVa-Ve-Bhg"/>
                         <outlet property="squareButton" destination="UQq-54-3lA" id="vUr-g5-lv9"/>
                         <outlet property="tableView" destination="oVn-zr-eKX" id="eou-SE-PAV"/>
+                        <segue destination="z9I-0g-rBx" kind="show" identifier="productdes" id="wVM-L6-tBe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qa2-XN-YJI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3756" y="1659"/>
+        </scene>
+        <!--Product Des View Controller-->
+        <scene sceneID="ugT-KQ-N4n">
+            <objects>
+                <viewController id="z9I-0g-rBx" customClass="ProductDesViewController" customModule="NykaCosmetics" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rju-3v-EAA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="88K-k3-daZ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="z9I-0g-rBx" id="Bc1-Yn-pmf"/>
+                                    <outlet property="delegate" destination="z9I-0g-rBx" id="ev7-kc-HJM"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bSz-uo-bzR" firstAttribute="trailing" secondItem="88K-k3-daZ" secondAttribute="trailing" id="Iwl-mC-rqI"/>
+                            <constraint firstItem="bSz-uo-bzR" firstAttribute="bottom" secondItem="88K-k3-daZ" secondAttribute="bottom" id="UKN-fd-yJY"/>
+                            <constraint firstItem="88K-k3-daZ" firstAttribute="top" secondItem="bSz-uo-bzR" secondAttribute="top" id="dPU-0E-ZQ6"/>
+                            <constraint firstItem="88K-k3-daZ" firstAttribute="leading" secondItem="bSz-uo-bzR" secondAttribute="leading" id="fHa-BD-Ird"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bSz-uo-bzR"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="88K-k3-daZ" id="9Dn-aK-GvN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FeE-sz-S5i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4529" y="1658"/>
         </scene>
         <!--My Orders-->
         <scene sceneID="ucG-mt-KWX">
@@ -694,6 +729,6 @@
         <image name="unfilledheart" width="138.46153259277344" height="138.46153259277344"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8My-FT-mmU"/>
+        <segue reference="42P-pP-tGp"/>
     </inferredMetricsTieBreakers>
 </document>

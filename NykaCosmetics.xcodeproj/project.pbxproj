@@ -18,12 +18,24 @@
 		0B21FB8A22B2963300AD2A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B21FB8822B2963300AD2A74 /* Main.storyboard */; };
 		0B21FB9222B2963600AD2A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B21FB9022B2963600AD2A74 /* LaunchScreen.storyboard */; };
 		0B331D1F22CBCAB30041CA1F /* BrandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B331D1E22CBCAB30041CA1F /* BrandsViewController.swift */; };
+		0B39A4BB22DF6F6A00102A72 /* ThirdProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B39A4B922DF6F6A00102A72 /* ThirdProductTableViewCell.swift */; };
+		0B39A4BC22DF6F6A00102A72 /* ThirdProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B39A4BA22DF6F6A00102A72 /* ThirdProductTableViewCell.xib */; };
+		0B39A4BF22DF7E5800102A72 /* FourthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B39A4BD22DF7E5800102A72 /* FourthTableViewCell.swift */; };
+		0B39A4C022DF7E5800102A72 /* FourthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B39A4BE22DF7E5800102A72 /* FourthTableViewCell.xib */; };
 		0B6F597222B7FE0C001D40BA /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F597122B7FE0C001D40BA /* LandingViewController.swift */; };
 		0B84CF9822D2499D00542342 /* BrandsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B84CF9622D2499D00542342 /* BrandsTableViewCell.swift */; };
 		0B84CF9922D2499D00542342 /* BrandsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B84CF9722D2499D00542342 /* BrandsTableViewCell.xib */; };
 		0B943E0822D55A1B000BA461 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B943E0722D55A1B000BA461 /* Product.swift */; };
 		0BAD669F22D27F2900944B65 /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD669D22D27F2900944B65 /* ProductsCollectionViewCell.swift */; };
 		0BF6719E22B337E80060BA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF6719D22B337E70060BA90 /* Assets.xcassets */; };
+		0BF8D04122DCCC0F009BEB9D /* ProductDesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8D04022DCCC0F009BEB9D /* ProductDesViewController.swift */; };
+		0BF8D04422DCCCAF009BEB9D /* ProductFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8D04222DCCCAF009BEB9D /* ProductFirstTableViewCell.swift */; };
+		0BF8D04522DCCCAF009BEB9D /* ProductFirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF8D04322DCCCAF009BEB9D /* ProductFirstTableViewCell.xib */; };
+		0BF8D04822DCDBAA009BEB9D /* ColorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8D04622DCDBAA009BEB9D /* ColorViewCell.swift */; };
+		0BF8D04922DCDBAA009BEB9D /* ColorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF8D04722DCDBAA009BEB9D /* ColorViewCell.xib */; };
+		0BF8D04B22DD160A009BEB9D /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8D04A22DD160A009BEB9D /* OffersViewController.swift */; };
+		0BF8D04E22DE3A26009BEB9D /* SecondProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8D04C22DE3A26009BEB9D /* SecondProductTableViewCell.swift */; };
+		0BF8D04F22DE3A26009BEB9D /* SecondProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF8D04D22DE3A26009BEB9D /* SecondProductTableViewCell.xib */; };
 		75C70AA3B3A44B5D575D4E5E /* Pods_NykaCosmetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E25530E2C3CF542DA6D1F5A /* Pods_NykaCosmetics.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,12 +53,24 @@
 		0B21FB9122B2963600AD2A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B21FB9322B2963600AD2A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B331D1E22CBCAB30041CA1F /* BrandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsViewController.swift; sourceTree = "<group>"; };
+		0B39A4B922DF6F6A00102A72 /* ThirdProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdProductTableViewCell.swift; sourceTree = "<group>"; };
+		0B39A4BA22DF6F6A00102A72 /* ThirdProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdProductTableViewCell.xib; sourceTree = "<group>"; };
+		0B39A4BD22DF7E5800102A72 /* FourthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTableViewCell.swift; sourceTree = "<group>"; };
+		0B39A4BE22DF7E5800102A72 /* FourthTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthTableViewCell.xib; sourceTree = "<group>"; };
 		0B6F597122B7FE0C001D40BA /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		0B84CF9622D2499D00542342 /* BrandsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsTableViewCell.swift; sourceTree = "<group>"; };
 		0B84CF9722D2499D00542342 /* BrandsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandsTableViewCell.xib; sourceTree = "<group>"; };
 		0B943E0722D55A1B000BA461 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		0BAD669D22D27F2900944B65 /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
 		0BF6719D22B337E70060BA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BF8D04022DCCC0F009BEB9D /* ProductDesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDesViewController.swift; sourceTree = "<group>"; };
+		0BF8D04222DCCCAF009BEB9D /* ProductFirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFirstTableViewCell.swift; sourceTree = "<group>"; };
+		0BF8D04322DCCCAF009BEB9D /* ProductFirstTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductFirstTableViewCell.xib; sourceTree = "<group>"; };
+		0BF8D04622DCDBAA009BEB9D /* ColorViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewCell.swift; sourceTree = "<group>"; };
+		0BF8D04722DCDBAA009BEB9D /* ColorViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorViewCell.xib; sourceTree = "<group>"; };
+		0BF8D04A22DD160A009BEB9D /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		0BF8D04C22DE3A26009BEB9D /* SecondProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondProductTableViewCell.swift; sourceTree = "<group>"; };
+		0BF8D04D22DE3A26009BEB9D /* SecondProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondProductTableViewCell.xib; sourceTree = "<group>"; };
 		7E25530E2C3CF542DA6D1F5A /* Pods_NykaCosmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NykaCosmetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C14A115FE954AB63F0F99A /* Pods-NykaCosmetics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NykaCosmetics.debug.xcconfig"; path = "Target Support Files/Pods-NykaCosmetics/Pods-NykaCosmetics.debug.xcconfig"; sourceTree = "<group>"; };
 		D99262F179D27212ED8013CC /* Pods-NykaCosmetics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NykaCosmetics.release.xcconfig"; path = "Target Support Files/Pods-NykaCosmetics/Pods-NykaCosmetics.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,9 +113,21 @@
 				0B21FB8622B2963300AD2A74 /* ViewController.swift */,
 				0B6F597122B7FE0C001D40BA /* LandingViewController.swift */,
 				0B21FB8822B2963300AD2A74 /* Main.storyboard */,
+				0BF8D04222DCCCAF009BEB9D /* ProductFirstTableViewCell.swift */,
+				0BF8D04322DCCCAF009BEB9D /* ProductFirstTableViewCell.xib */,
+				0BF8D04622DCDBAA009BEB9D /* ColorViewCell.swift */,
+				0BF8D04722DCDBAA009BEB9D /* ColorViewCell.xib */,
+				0BF8D04022DCCC0F009BEB9D /* ProductDesViewController.swift */,
+				0BF8D04C22DE3A26009BEB9D /* SecondProductTableViewCell.swift */,
+				0B39A4BD22DF7E5800102A72 /* FourthTableViewCell.swift */,
+				0B39A4BE22DF7E5800102A72 /* FourthTableViewCell.xib */,
+				0BF8D04D22DE3A26009BEB9D /* SecondProductTableViewCell.xib */,
+				0B39A4B922DF6F6A00102A72 /* ThirdProductTableViewCell.swift */,
+				0B39A4BA22DF6F6A00102A72 /* ThirdProductTableViewCell.xib */,
 				0B331D1E22CBCAB30041CA1F /* BrandsViewController.swift */,
 				0B062C0F22BAAD2300F0BC3B /* CategoriesTableViewCell.swift */,
 				0B062C1522BBD86E00F0BC3B /* BrandsCollectionViewCell.swift */,
+				0BF8D04A22DD160A009BEB9D /* OffersViewController.swift */,
 				0B062C1322BAAEED00F0BC3B /* CategoriesTableViewController.swift */,
 				0B062C1022BAAD2300F0BC3B /* CategoriesTableViewCell.xib */,
 				0B943E0722D55A1B000BA461 /* Product.swift */,
@@ -186,9 +222,14 @@
 			files = (
 				0B21FB9222B2963600AD2A74 /* LaunchScreen.storyboard in Resources */,
 				0B84CF9922D2499D00542342 /* BrandsTableViewCell.xib in Resources */,
+				0B39A4BC22DF6F6A00102A72 /* ThirdProductTableViewCell.xib in Resources */,
+				0B39A4C022DF7E5800102A72 /* FourthTableViewCell.xib in Resources */,
 				0B062C1222BAAD2300F0BC3B /* CategoriesTableViewCell.xib in Resources */,
 				0BF6719E22B337E80060BA90 /* Assets.xcassets in Resources */,
+				0BF8D04922DCDBAA009BEB9D /* ColorViewCell.xib in Resources */,
+				0BF8D04522DCCCAF009BEB9D /* ProductFirstTableViewCell.xib in Resources */,
 				0B21FB8A22B2963300AD2A74 /* Main.storyboard in Resources */,
+				0BF8D04F22DE3A26009BEB9D /* SecondProductTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,18 +289,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF8D04E22DE3A26009BEB9D /* SecondProductTableViewCell.swift in Sources */,
 				0B331D1F22CBCAB30041CA1F /* BrandsViewController.swift in Sources */,
 				0B84CF9822D2499D00542342 /* BrandsTableViewCell.swift in Sources */,
+				0BF8D04422DCCCAF009BEB9D /* ProductFirstTableViewCell.swift in Sources */,
 				0B21FB8722B2963300AD2A74 /* ViewController.swift in Sources */,
 				0B21FB8522B2963300AD2A74 /* AppDelegate.swift in Sources */,
+				0B39A4BF22DF7E5800102A72 /* FourthTableViewCell.swift in Sources */,
 				0B6F597222B7FE0C001D40BA /* LandingViewController.swift in Sources */,
 				0B943E0822D55A1B000BA461 /* Product.swift in Sources */,
 				0B062C1422BAAEED00F0BC3B /* CategoriesTableViewController.swift in Sources */,
 				0B06AEE622B934D7007F97FF /* SignInViewController.swift in Sources */,
+				0BF8D04B22DD160A009BEB9D /* OffersViewController.swift in Sources */,
 				0B062C1122BAAD2300F0BC3B /* CategoriesTableViewCell.swift in Sources */,
 				0B062C1622BBD86E00F0BC3B /* BrandsCollectionViewCell.swift in Sources */,
 				0BAD669F22D27F2900944B65 /* ProductsCollectionViewCell.swift in Sources */,
 				0B06AEE822B96A43007F97FF /* HomeViewController.swift in Sources */,
+				0BF8D04122DCCC0F009BEB9D /* ProductDesViewController.swift in Sources */,
+				0BF8D04822DCDBAA009BEB9D /* ColorViewCell.swift in Sources */,
+				0B39A4BB22DF6F6A00102A72 /* ThirdProductTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

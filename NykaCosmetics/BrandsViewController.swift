@@ -90,7 +90,7 @@ class BrandsViewController: UIViewController,UITableViewDelegate,UITableViewData
              cell.priceLabel?.text = product.price
             if let url = URL(string: product.image_link  ??  ""){
                 cell.productImage?.downloaded(from: url)
-            }
+            } 
         }
        
         cell.layer.borderColor = UIColor.lightGray.cgColor
@@ -99,7 +99,25 @@ class BrandsViewController: UIViewController,UITableViewDelegate,UITableViewData
         cell.clipsToBounds = true
         return cell
     }
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let product = filteredBrands{
+            let productdes = product[indexPath.section]
+             performSegue(withIdentifier: "productdes", sender: productdes)
+            
+        }
+       
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "productdes" {
+            let productVC = segue.destination as! ProductDesViewController
+            if sender != nil{
+            
+                productVC.selectedProduct = sender as? RLMProduct
+              
+            
+            }
+        }
+    }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 155
     }
@@ -124,15 +142,24 @@ extension BrandsViewController: UICollectionViewDelegate,UICollectionViewDataSou
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectioncell", for: indexPath) as! ProductsCollectionViewCell
         
         if let brands = filteredBrands{
-            let product = brands[indexPath.section]
+            let product = brands[indexPath.item]
             cell.productNameForColl?.text = product.name
             cell.priceLabelForColl?.text = product.price
             if let url = URL(string: product.image_link  ??  ""){
+                print(url)
                 cell.productImageForColl?.downloaded(from: url)
             }
+            
         }
        
         return cell
+    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let product = filteredBrands{
+            let productdes = product[indexPath.item]
+            performSegue(withIdentifier: "productdes", sender: productdes)
+            
+        }
     }
     
     //to reduce spacing
