@@ -59,7 +59,6 @@
 		0BF8D04E22DE3A26009BEB9D /* SecondProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8D04C22DE3A26009BEB9D /* SecondProductTableViewCell.swift */; };
 		0BF8D04F22DE3A26009BEB9D /* SecondProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF8D04D22DE3A26009BEB9D /* SecondProductTableViewCell.xib */; };
 		277FC3D234F8B9186C554A1C /* Pods_MakeUpFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7B8F770AB017CF0999A92D /* Pods_MakeUpFinder.framework */; };
-		75C70AA3B3A44B5D575D4E5E /* Pods_NykaCosmetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E25530E2C3CF542DA6D1F5A /* Pods_NykaCosmetics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,11 +115,9 @@
 		0BF8D04A22DD160A009BEB9D /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
 		0BF8D04C22DE3A26009BEB9D /* SecondProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondProductTableViewCell.swift; sourceTree = "<group>"; };
 		0BF8D04D22DE3A26009BEB9D /* SecondProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondProductTableViewCell.xib; sourceTree = "<group>"; };
+		4E3B0E6988CDEEAA1F591E99 /* Pods-MakeUpFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeUpFinder.debug.xcconfig"; path = "Target Support Files/Pods-MakeUpFinder/Pods-MakeUpFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		7E25530E2C3CF542DA6D1F5A /* Pods_NykaCosmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NykaCosmetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9921E684E6BF5A3402911751 /* Pods-MakeUpFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeUpFinder.release.xcconfig"; path = "Target Support Files/Pods-MakeUpFinder/Pods-MakeUpFinder.release.xcconfig"; sourceTree = "<group>"; };
-		BEEE0E7E96960DC620AD7AA9 /* Pods-MakeUpFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeUpFinder.debug.xcconfig"; path = "Target Support Files/Pods-MakeUpFinder/Pods-MakeUpFinder.debug.xcconfig"; sourceTree = "<group>"; };
-		D8C14A115FE954AB63F0F99A /* Pods-NykaCosmetics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NykaCosmetics.debug.xcconfig"; path = "Target Support Files/Pods-NykaCosmetics/Pods-NykaCosmetics.debug.xcconfig"; sourceTree = "<group>"; };
-		D99262F179D27212ED8013CC /* Pods-NykaCosmetics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NykaCosmetics.release.xcconfig"; path = "Target Support Files/Pods-NykaCosmetics/Pods-NykaCosmetics.release.xcconfig"; sourceTree = "<group>"; };
+		8C5253EBE23C6AF4230003D8 /* Pods-MakeUpFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeUpFinder.release.xcconfig"; path = "Target Support Files/Pods-MakeUpFinder/Pods-MakeUpFinder.release.xcconfig"; sourceTree = "<group>"; };
 		EB7B8F770AB017CF0999A92D /* Pods_MakeUpFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeUpFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,7 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75C70AA3B3A44B5D575D4E5E /* Pods_NykaCosmetics.framework in Frameworks */,
 				277FC3D234F8B9186C554A1C /* Pods_MakeUpFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,10 +318,8 @@
 		9E42CB5989F7FB2530FA708C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D8C14A115FE954AB63F0F99A /* Pods-NykaCosmetics.debug.xcconfig */,
-				D99262F179D27212ED8013CC /* Pods-NykaCosmetics.release.xcconfig */,
-				BEEE0E7E96960DC620AD7AA9 /* Pods-MakeUpFinder.debug.xcconfig */,
-				9921E684E6BF5A3402911751 /* Pods-MakeUpFinder.release.xcconfig */,
+				4E3B0E6988CDEEAA1F591E99 /* Pods-MakeUpFinder.debug.xcconfig */,
+				8C5253EBE23C6AF4230003D8 /* Pods-MakeUpFinder.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -643,11 +637,11 @@
 		};
 		0B21FB9722B2963600AD2A74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEEE0E7E96960DC620AD7AA9 /* Pods-MakeUpFinder.debug.xcconfig */;
+			baseConfigurationReference = 4E3B0E6988CDEEAA1F591E99 /* Pods-MakeUpFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NykaCosmetics/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MakeUpFinder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -661,11 +655,11 @@
 		};
 		0B21FB9822B2963600AD2A74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9921E684E6BF5A3402911751 /* Pods-MakeUpFinder.release.xcconfig */;
+			baseConfigurationReference = 8C5253EBE23C6AF4230003D8 /* Pods-MakeUpFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NykaCosmetics/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MakeUpFinder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

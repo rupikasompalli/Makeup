@@ -1,6 +1,6 @@
 //
 //  ChangePasswordViewController.swift
-//  NykaCosmetics
+//  MakeUpFinder
 //
 //  Created by Rupika on 2019-07-24.
 //  Copyright © 2019 Rupika. All rights reserved.

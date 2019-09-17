@@ -1,6 +1,6 @@
 //
 //  LandingViewController.swift
-//  NykaCosmetics
+//  MakeUpFinder
 //
 //  Created by Rupika on 2019-06-17.
 //  Copyright © 2019 Rupika. All rights reserved.
@@ -82,7 +82,7 @@ class LandingViewController: UIViewController {
                                     for product in products{
                                         try self.realm!.write {
                                             let realmProduct = RLMProduct()
-                                            realmProduct.product_id = product.product_id
+                                            realmProduct.product_id = product.product_id ?? 0
                                             realmProduct.name = product.name
                                             realmProduct.brand = product.brand
                                             realmProduct.price = product.price

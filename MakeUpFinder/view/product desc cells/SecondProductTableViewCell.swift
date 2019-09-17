@@ -1,6 +1,6 @@
 //
 //  SecondProductTableViewCell.swift
-//  NykaCosmetics
+//  MakeUpFinder
 //
 //  Created by Rupika on 2019-07-16.
 //  Copyright © 2019 Rupika. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  SignInViewController.swift
-//  NykaCosmetics
+//  MakeUpFinder
 //
 //  Created by Rupika on 2019-06-18.
 //  Copyright © 2019 Rupika. All rights reserved.

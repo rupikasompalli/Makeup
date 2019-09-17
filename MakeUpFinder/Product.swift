@@ -118,7 +118,6 @@ struct ProductColor : Decodable{
 
 @objcMembers class RLMProduct: Object {
     
-    dynamic var product_id : Int?
     dynamic var favourite : Bool = false
     dynamic var brand : String?
     dynamic var name : String?
@@ -132,6 +131,7 @@ struct ProductColor : Decodable{
     dynamic var category : String?
     dynamic var rating : String?
     dynamic var prod_type : String?
+    dynamic var product_id = 0
     
     
     let tagList = List<String>()
