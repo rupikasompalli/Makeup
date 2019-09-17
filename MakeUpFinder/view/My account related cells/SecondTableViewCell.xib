@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="secondaccount" rowHeight="55" id="KGk-i7-Jjw" customClass="SecondTableViewCell" customModule="NykaCosmetics" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="54.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Saved Payments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dD4-O2-4Xn">
+                        <rect key="frame" x="31" y="18.5" width="138" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.12986642679999999" green="0.50411899510000002" blue="0.53612775260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NF3-Kb-NOK" userLabel="speratorView">
+                        <rect key="frame" x="20" y="43.5" width="287" height="1"/>
+                        <color key="backgroundColor" red="0.3044992084" green="0.44362906439999999" blue="0.49176246759999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="enQ-NY-zps"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8T3-oS-CJe"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dD4-O2-4Xn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="ear-0k-tcN"/>
+                    <constraint firstItem="NF3-Kb-NOK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="gfE-lk-QrV"/>
+                    <constraint firstAttribute="trailing" secondItem="NF3-Kb-NOK" secondAttribute="trailing" constant="20" id="nQb-fv-Zti"/>
+                    <constraint firstItem="dD4-O2-4Xn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="t0b-nQ-m8m"/>
+                    <constraint firstAttribute="bottom" secondItem="NF3-Kb-NOK" secondAttribute="bottom" constant="10" id="zyW-2Z-HVr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="accountLabel" destination="dD4-O2-4Xn" id="kLM-6u-12r"/>
+            </connections>
+            <point key="canvasLocation" x="143.19999999999999" y="134.48275862068968"/>
+        </tableViewCell>
+    </objects>
+</document>
